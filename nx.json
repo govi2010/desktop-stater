@@ -10,5 +10,22 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "libs": {
+      "tags": []
+    },
+    "xplat": {
+      "tags": []
+    },
+    "web-desktop-ui": {
+      "tags": []
+    },
+    "web-desktop-ui-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web-desktop-ui"]
+    },
+    "electron-desktop-app": {
+      "tags": []
+    }
+  }
 }

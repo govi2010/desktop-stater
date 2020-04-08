@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "no-console": [true, "debug", "time", "timeEnd", "trace"],
+    "directive-selector": [true, "attribute", "desktop-stater", "camelCase"],
+    "component-selector": [true, "element", "desktop-stater", "kebab-case"]
+  }
+}

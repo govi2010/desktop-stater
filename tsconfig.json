@@ -15,7 +15,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@desktop-stater/*": ["libs/*"],
+      "@desktop-stater/web": ["xplat/web/index.ts"],
+      "@desktop-stater/web/*": ["xplat/web/*"],
+      "@desktop-stater/electron": ["xplat/electron/index.ts"],
+      "@desktop-stater/electron/*": ["xplat/electron/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
