@@ -23,7 +23,9 @@
               "testing/tsconfig.libs.json",
               "testing/tsconfig.libs.spec.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
@@ -50,7 +52,9 @@
               "testing/tsconfig.xplat.json",
               "testing/tsconfig.xplat.spec.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
@@ -140,7 +144,10 @@
               "apps/web-desktop-ui/tsconfig.app.json",
               "apps/web-desktop-ui/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/web-desktop-ui/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/web-desktop-ui/**"
+            ]
           }
         },
         "test": {
@@ -175,8 +182,13 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/web-desktop-ui-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/web-desktop-ui-e2e/**"]
+            "tsConfig": [
+              "apps/web-desktop-ui-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/web-desktop-ui-e2e/**"
+            ]
           }
         }
       }
@@ -207,7 +219,9 @@
               {
                 "glob": "**/*",
                 "input": "apps/electron-desktop-app/src/",
-                "ignore": ["**/*.ts"],
+                "ignore": [
+                  "**/*.ts"
+                ],
                 "output": ""
               }
             ],
