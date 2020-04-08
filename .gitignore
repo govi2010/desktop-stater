@@ -54,3 +54,4 @@ xplat/**/*.metadata.json
 xplat/**/*.ngfactory.ts
 xplat/**/*.ngsummary.json
       
+/package-lock.json
