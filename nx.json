@@ -26,6 +26,29 @@
     },
     "electron-desktop-app": {
       "tags": []
+    },
+    "domain-models": {
+      "tags": []
+    },
+    "view-models": {
+      "tags": []
+    },
+    "data-access": {
+      "tags": []
+    },
+    "services": {
+      "tags": []
+    },
+    "nest-server": {
+      "tags": []
+    }
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
     }
   }
 }

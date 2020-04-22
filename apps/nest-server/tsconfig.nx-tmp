@@ -1,0 +1,44 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "@desktop-stater/*": [
+        "libs/*"
+      ],
+      "@desktop-stater/web": [
+        "xplat/web/index.ts"
+      ],
+      "@desktop-stater/web/*": [
+        "xplat/web/*"
+      ],
+      "@desktop-stater/electron": [
+        "xplat/electron/index.ts"
+      ],
+      "@desktop-stater/electron/*": [
+        "xplat/electron/*"
+      ],
+      "@desktop-stater/domain-models": [
+        "libs/domain-models/src/index.ts"
+      ],
+      "@desktop-stater/view-models": [
+        "libs/view-models/src/index.ts"
+      ],
+      "@desktop-stater/data-access": [
+        "libs/data-access/src/index.ts"
+      ],
+      "@desktop-stater/services": [
+        "libs/services/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "**/*.spec.ts"
+  ],
+  "include": [
+    "**/*.ts"
+  ]
+}

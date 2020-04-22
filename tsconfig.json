@@ -10,7 +10,7 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "typeRoots": ["overrides","node_modules/@types"],
+    "typeRoots": ["overrides", "node_modules/@types"],
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
@@ -20,7 +20,11 @@
       "@desktop-stater/web": ["xplat/web/index.ts"],
       "@desktop-stater/web/*": ["xplat/web/*"],
       "@desktop-stater/electron": ["xplat/electron/index.ts"],
-      "@desktop-stater/electron/*": ["xplat/electron/*"]
+      "@desktop-stater/electron/*": ["xplat/electron/*"],
+      "@desktop-stater/domain-models": ["libs/domain-models/src/index.ts"],
+      "@desktop-stater/view-models": ["libs/view-models/src/index.ts"],
+      "@desktop-stater/data-access": ["libs/data-access/src/index.ts"],
+      "@desktop-stater/services": ["libs/services/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
